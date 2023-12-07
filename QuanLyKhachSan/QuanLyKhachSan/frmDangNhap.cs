@@ -21,5 +21,15 @@ namespace QuanLyKhachSan
         {
 
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
