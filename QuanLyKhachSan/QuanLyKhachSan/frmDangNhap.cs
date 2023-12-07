@@ -24,12 +24,17 @@ namespace QuanLyKhachSan
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-
+            if(txtDangNhap.Text == "" || txtMatKhau.text == "")
+                MessageBox.Show("Hãy nhập tài khoản!", "Thông báo");
+            else
+            {
+                
+            }
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
