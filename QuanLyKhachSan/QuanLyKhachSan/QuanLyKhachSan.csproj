@@ -58,6 +58,12 @@
     <Compile Include="frmKhachDP.Designer.cs">
       <DependentUpon>frmKhachDP.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQLP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLP.Designer.cs">
+      <DependentUpon>frmQLP.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhachDP.resx">
       <DependentUpon>frmKhachDP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLP.resx">
+      <DependentUpon>frmQLP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
