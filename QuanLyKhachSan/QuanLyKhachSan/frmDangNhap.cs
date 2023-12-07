@@ -16,5 +16,10 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
