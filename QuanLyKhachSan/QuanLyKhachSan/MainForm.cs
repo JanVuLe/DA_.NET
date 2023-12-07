@@ -16,5 +16,15 @@ namespace QuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            DangNhap();
+        }
+        public void DangNhap()
+        {
+            frmDangNhap frmDN = new frmDangNhap();
+            frmDN.ShowDialog();
+        }
     }
 }
