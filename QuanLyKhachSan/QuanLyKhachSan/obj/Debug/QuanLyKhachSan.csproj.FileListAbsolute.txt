@@ -1,0 +1,7 @@
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.AssemblyReference.cache
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frmDangNhap.resources
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frmDatPhong.resources
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frmKhachDP.resources
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.frmQLP.resources
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.MainForm.resources
+D:\Study\LT-.NET\DA_.NET\QuanLyKhachSan\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.cache

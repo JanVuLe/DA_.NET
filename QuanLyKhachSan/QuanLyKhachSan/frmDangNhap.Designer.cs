@@ -43,10 +43,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(44, 85);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(2, 106);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
+            this.label1.Size = new System.Drawing.Size(151, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên tài khoản:";
             // 
@@ -56,36 +55,35 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label2.Location = new System.Drawing.Point(44, 127);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(2, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 20);
+            this.label2.Size = new System.Drawing.Size(151, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên mật khẩu:";
             // 
             // txtTenTK
             // 
-            this.txtTenTK.Location = new System.Drawing.Point(161, 88);
-            this.txtTenTK.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTenTK.Location = new System.Drawing.Point(158, 109);
+            this.txtTenTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenTK.Name = "txtTenTK";
-            this.txtTenTK.Size = new System.Drawing.Size(173, 20);
+            this.txtTenTK.Size = new System.Drawing.Size(229, 22);
             this.txtTenTK.TabIndex = 2;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(161, 127);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMatKhau.Location = new System.Drawing.Point(158, 157);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(173, 20);
+            this.txtMatKhau.Size = new System.Drawing.Size(229, 22);
             this.txtMatKhau.TabIndex = 3;
             // 
             // btnDangNhap
             // 
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.Location = new System.Drawing.Point(48, 182);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDangNhap.Location = new System.Drawing.Point(7, 225);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(119, 36);
+            this.btnDangNhap.Size = new System.Drawing.Size(159, 44);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
@@ -93,10 +91,10 @@
             // btnHuy
             // 
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuy.Location = new System.Drawing.Point(246, 182);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHuy.Location = new System.Drawing.Point(271, 225);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(88, 36);
+            this.btnHuy.Size = new System.Drawing.Size(117, 44);
             this.btnHuy.TabIndex = 5;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
@@ -107,20 +105,19 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label3.Location = new System.Drawing.Point(69, 24);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(35, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(269, 24);
+            this.label3.Size = new System.Drawing.Size(331, 29);
             this.label3.TabIndex = 6;
             this.label3.Text = "Quản Lý Khách Sạn Goethe";
             // 
             // frmDangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkOrange;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::QuanLyKhachSan.Properties.Resources.GoetheHotel_400x301;
-            this.ClientSize = new System.Drawing.Size(383, 262);
+            this.ClientSize = new System.Drawing.Size(400, 301);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnDangNhap);
@@ -128,7 +125,7 @@
             this.Controls.Add(this.txtTenTK);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmDangNhap";
             this.Text = "Đăng Nhập";
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
