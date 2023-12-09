@@ -24,7 +24,7 @@ namespace QuanLyKhachSan
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            if(txtDangNhap.Text == "" || txtMatKhau.text == "")
+            if(txtTenTK.Text == "" || txtMatKhau.Text == "")
                 MessageBox.Show("Hãy nhập tài khoản!", "Thông báo");
             else
             {
