@@ -20,11 +20,14 @@ namespace QuanLyKhachSan
         private void MainForm_Load(object sender, EventArgs e)
         {
             DangNhap();
+            lbngayhientai.Text = DateTime.Now.ToString();
         }
         public void DangNhap()
         {
             frmDangNhap frmDN = new frmDangNhap();
             frmDN.ShowDialog();
         }
+
+
     }
 }
