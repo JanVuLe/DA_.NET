@@ -28,303 +28,310 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtDIaChi = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtTen = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtCCCD = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtSDT = new System.Windows.Forms.TextBox();
-            this.rdbNu = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.rdbNam = new System.Windows.Forms.RadioButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtQuocTich = new System.Windows.Forms.TextBox();
-            this.txtNamSinh = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.SuspendLayout();
+            txtDiaChi = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            txtTen = new TextBox();
+            label4 = new Label();
+            txtCCCD = new TextBox();
+            label5 = new Label();
+            txtSDT = new TextBox();
+            rdbNu = new RadioButton();
+            label6 = new Label();
+            rdbNam = new RadioButton();
+            label7 = new Label();
+            grbThongtin = new GroupBox();
+            btnNext = new Button();
+            txtQuocTich = new TextBox();
+            txtEmail = new TextBox();
+            label8 = new Label();
+            label1 = new Label();
+            label9 = new Label();
+            txtNamSinh = new TextBox();
+            label10 = new Label();
+            txtNhap = new TextBox();
+            btnNhapN = new Button();
+            btnDone = new Button();
+            grbThongtin.SuspendLayout();
+            SuspendLayout();
             // 
-            // txtDIaChi
+            // txtDiaChi
             // 
-            this.txtDIaChi.Location = new System.Drawing.Point(115, 153);
-            this.txtDIaChi.Name = "txtDIaChi";
-            this.txtDIaChi.Size = new System.Drawing.Size(264, 26);
-            this.txtDIaChi.TabIndex = 22;
+            txtDiaChi.Location = new Point(115, 153);
+            txtDiaChi.Name = "txtDiaChi";
+            txtDiaChi.Size = new Size(264, 26);
+            txtDiaChi.TabIndex = 22;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(75, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(250, 20);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Thông Tin Khách Trong Phòng";
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = SystemColors.Highlight;
+            label2.Location = new Point(75, 15);
+            label2.Name = "label2";
+            label2.Size = new Size(250, 20);
+            label2.TabIndex = 14;
+            label2.Text = "Thông Tin Khách Trong Phòng";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 28);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 19);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Tên";
+            label3.AutoSize = true;
+            label3.Location = new Point(81, 28);
+            label3.Name = "label3";
+            label3.Size = new Size(32, 19);
+            label3.TabIndex = 15;
+            label3.Text = "Tên";
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(115, 25);
-            this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(264, 26);
-            this.txtTen.TabIndex = 16;
+            txtTen.Location = new Point(115, 25);
+            txtTen.Name = "txtTen";
+            txtTen.Size = new Size(264, 26);
+            txtTen.TabIndex = 16;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 92);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 19);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "CCCD/CMND";
+            label4.AutoSize = true;
+            label4.Location = new Point(8, 92);
+            label4.Name = "label4";
+            label4.Size = new Size(105, 19);
+            label4.TabIndex = 17;
+            label4.Text = "CCCD/CMND";
             // 
             // txtCCCD
             // 
-            this.txtCCCD.Location = new System.Drawing.Point(115, 89);
-            this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(264, 26);
-            this.txtCCCD.TabIndex = 18;
+            txtCCCD.Location = new Point(115, 89);
+            txtCCCD.Name = "txtCCCD";
+            txtCCCD.Size = new Size(264, 26);
+            txtCCCD.TabIndex = 18;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 19);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "SDT";
+            label5.AutoSize = true;
+            label5.Location = new Point(75, 124);
+            label5.Name = "label5";
+            label5.Size = new Size(38, 19);
+            label5.TabIndex = 19;
+            label5.Text = "SDT";
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(115, 121);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(264, 26);
-            this.txtSDT.TabIndex = 20;
+            txtSDT.Location = new Point(115, 121);
+            txtSDT.Name = "txtSDT";
+            txtSDT.Size = new Size(264, 26);
+            txtSDT.TabIndex = 20;
             // 
             // rdbNu
             // 
-            this.rdbNu.AutoSize = true;
-            this.rdbNu.Location = new System.Drawing.Point(239, 265);
-            this.rdbNu.Name = "rdbNu";
-            this.rdbNu.Size = new System.Drawing.Size(48, 23);
-            this.rdbNu.TabIndex = 25;
-            this.rdbNu.TabStop = true;
-            this.rdbNu.Text = "Nữ";
-            this.rdbNu.UseVisualStyleBackColor = true;
+            rdbNu.AutoSize = true;
+            rdbNu.Location = new Point(239, 265);
+            rdbNu.Name = "rdbNu";
+            rdbNu.Size = new Size(48, 23);
+            rdbNu.TabIndex = 25;
+            rdbNu.TabStop = true;
+            rdbNu.Text = "Nữ";
+            rdbNu.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(10, 156);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 19);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Địa Chỉ";
+            label6.AutoSize = true;
+            label6.Location = new Point(58, 156);
+            label6.Name = "label6";
+            label6.Size = new Size(55, 19);
+            label6.TabIndex = 21;
+            label6.Text = "Địa Chỉ";
             // 
             // rdbNam
             // 
-            this.rdbNam.AutoSize = true;
-            this.rdbNam.Location = new System.Drawing.Point(113, 265);
-            this.rdbNam.Name = "rdbNam";
-            this.rdbNam.Size = new System.Drawing.Size(57, 23);
-            this.rdbNam.TabIndex = 24;
-            this.rdbNam.TabStop = true;
-            this.rdbNam.Text = "Nam";
-            this.rdbNam.UseVisualStyleBackColor = true;
+            rdbNam.AutoSize = true;
+            rdbNam.Location = new Point(156, 265);
+            rdbNam.Name = "rdbNam";
+            rdbNam.Size = new Size(57, 23);
+            rdbNam.TabIndex = 24;
+            rdbNam.TabStop = true;
+            rdbNam.Text = "Nam";
+            rdbNam.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 267);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 19);
-            this.label7.TabIndex = 23;
-            this.label7.Text = "Giới Tính";
+            label7.AutoSize = true;
+            label7.Location = new Point(49, 267);
+            label7.Name = "label7";
+            label7.Size = new Size(64, 19);
+            label7.TabIndex = 23;
+            label7.Text = "Giới Tính";
             // 
-            // groupBox1
+            // grbThongtin
             // 
-            this.groupBox1.Controls.Add(this.txtTen);
-            this.groupBox1.Controls.Add(this.txtQuocTich);
-            this.groupBox1.Controls.Add(this.txtEmail);
-            this.groupBox1.Controls.Add(this.txtDIaChi);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.rdbNam);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.rdbNu);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtSDT);
-            this.groupBox1.Controls.Add(this.txtNamSinh);
-            this.groupBox1.Controls.Add(this.txtCCCD);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(395, 15);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(385, 405);
-            this.groupBox1.TabIndex = 26;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nhập thông tin";
+            grbThongtin.Controls.Add(btnNext);
+            grbThongtin.Controls.Add(txtTen);
+            grbThongtin.Controls.Add(txtQuocTich);
+            grbThongtin.Controls.Add(txtEmail);
+            grbThongtin.Controls.Add(txtDiaChi);
+            grbThongtin.Controls.Add(label7);
+            grbThongtin.Controls.Add(label8);
+            grbThongtin.Controls.Add(rdbNam);
+            grbThongtin.Controls.Add(label1);
+            grbThongtin.Controls.Add(label3);
+            grbThongtin.Controls.Add(label6);
+            grbThongtin.Controls.Add(rdbNu);
+            grbThongtin.Controls.Add(label9);
+            grbThongtin.Controls.Add(label4);
+            grbThongtin.Controls.Add(txtSDT);
+            grbThongtin.Controls.Add(txtNamSinh);
+            grbThongtin.Controls.Add(txtCCCD);
+            grbThongtin.Controls.Add(label5);
+            grbThongtin.Enabled = false;
+            grbThongtin.Location = new Point(12, 78);
+            grbThongtin.Name = "grbThongtin";
+            grbThongtin.Size = new Size(385, 338);
+            grbThongtin.TabIndex = 26;
+            grbThongtin.TabStop = false;
+            grbThongtin.Text = "Nhập thông tin";
             // 
-            // groupBox2
+            // btnNext
             // 
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Location = new System.Drawing.Point(12, 40);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(377, 377);
-            this.groupBox2.TabIndex = 27;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Số lượng người trong phòng";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 25);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(106, 23);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 69);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(106, 23);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 117);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(106, 23);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 188);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 19);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Email";
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(115, 185);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(264, 26);
-            this.txtEmail.TabIndex = 22;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 220);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 19);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "Quốc Tịch";
+            btnNext.BackColor = Color.Yellow;
+            btnNext.Location = new Point(141, 304);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(96, 28);
+            btnNext.TabIndex = 26;
+            btnNext.Text = "Tiếp Theo";
+            btnNext.UseVisualStyleBackColor = false;
+            btnNext.Click += btnNext_Click;
             // 
             // txtQuocTich
             // 
-            this.txtQuocTich.Location = new System.Drawing.Point(115, 217);
-            this.txtQuocTich.Name = "txtQuocTich";
-            this.txtQuocTich.Size = new System.Drawing.Size(264, 26);
-            this.txtQuocTich.TabIndex = 22;
+            txtQuocTich.Location = new Point(115, 217);
+            txtQuocTich.Name = "txtQuocTich";
+            txtQuocTich.Size = new Size(264, 26);
+            txtQuocTich.TabIndex = 22;
             // 
-            // txtNamSinh
+            // txtEmail
             // 
-            this.txtNamSinh.Location = new System.Drawing.Point(115, 57);
-            this.txtNamSinh.Name = "txtNamSinh";
-            this.txtNamSinh.Size = new System.Drawing.Size(264, 26);
-            this.txtNamSinh.TabIndex = 18;
+            txtEmail.Location = new Point(115, 185);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(264, 26);
+            txtEmail.TabIndex = 22;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(40, 220);
+            label8.Name = "label8";
+            label8.Size = new Size(73, 19);
+            label8.TabIndex = 21;
+            label8.Text = "Quốc Tịch";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(71, 188);
+            label1.Name = "label1";
+            label1.Size = new Size(42, 19);
+            label1.TabIndex = 21;
+            label1.Text = "Email";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 60);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 19);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Năm Sinh";
+            label9.AutoSize = true;
+            label9.Location = new Point(44, 60);
+            label9.Name = "label9";
+            label9.Size = new Size(69, 19);
+            label9.TabIndex = 17;
+            label9.Text = "Năm Sinh";
+            // 
+            // txtNamSinh
+            // 
+            txtNamSinh.Location = new Point(115, 57);
+            txtNamSinh.Name = "txtNamSinh";
+            txtNamSinh.Size = new Size(264, 26);
+            txtNamSinh.TabIndex = 18;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(20, 47);
+            label10.Name = "label10";
+            label10.Size = new Size(183, 19);
+            label10.TabIndex = 27;
+            label10.Text = "Số lượng khách trong phòng:";
+            // 
+            // txtNhap
+            // 
+            txtNhap.Location = new Point(199, 44);
+            txtNhap.Name = "txtNhap";
+            txtNhap.Size = new Size(117, 26);
+            txtNhap.TabIndex = 28;
+            // 
+            // btnNhapN
+            // 
+            btnNhapN.Location = new Point(316, 44);
+            btnNhapN.Name = "btnNhapN";
+            btnNhapN.Size = new Size(81, 28);
+            btnNhapN.TabIndex = 29;
+            btnNhapN.Text = "Nhập";
+            btnNhapN.UseVisualStyleBackColor = true;
+            btnNhapN.Click += btnNhapN_Click;
+            // 
+            // btnDone
+            // 
+            btnDone.BackColor = Color.Lime;
+            btnDone.Enabled = false;
+            btnDone.Location = new Point(132, 422);
+            btnDone.Name = "btnDone";
+            btnDone.Size = new Size(131, 46);
+            btnDone.TabIndex = 30;
+            btnDone.Text = "Hoàn Thành";
+            btnDone.UseVisualStyleBackColor = false;
             // 
             // frmKhachDP
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1018, 509);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label2);
-            this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "frmKhachDP";
-            this.Text = "Khách Đặt Phòng";
-            this.Load += new System.EventHandler(this.frmKhachDP_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 224, 192);
+            ClientSize = new Size(409, 481);
+            Controls.Add(btnDone);
+            Controls.Add(btnNhapN);
+            Controls.Add(txtNhap);
+            Controls.Add(label10);
+            Controls.Add(grbThongtin);
+            Controls.Add(label2);
+            Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Name = "frmKhachDP";
+            Text = "Khách Đặt Phòng";
+            Load += frmKhachDP_Load;
+            grbThongtin.ResumeLayout(false);
+            grbThongtin.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtDIaChi;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtTen;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtCCCD;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtSDT;
-        private System.Windows.Forms.RadioButton rdbNu;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton rdbNam;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtQuocTich;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtNamSinh;
+        private TextBox txtDiaChi;
+        private Label label2;
+        private Label label3;
+        private TextBox txtTen;
+        private Label label4;
+        private TextBox txtCCCD;
+        private Label label5;
+        private TextBox txtSDT;
+        private RadioButton rdbNu;
+        private Label label6;
+        private RadioButton rdbNam;
+        private Label label7;
+        private GroupBox grbThongtin;
+        private TextBox txtEmail;
+        private Label label1;
+        private TextBox txtQuocTich;
+        private Label label8;
+        private Label label9;
+        private TextBox txtNamSinh;
+        private Label label10;
+        private TextBox txtNhap;
+        private Button btnNhapN;
+        private Button btnDone;
+        private Button btnNext;
     }
 }
