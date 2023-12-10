@@ -7,7 +7,9 @@ create table khachhang
 	cccd nvarchar(12) unique not null,
 	gioitinh nvarchar(3),
 	sdt varchar(10),
-	diachi nvarchar(50)
+	diachi nvarchar(50),
+	email nvarchar(50),
+	quoctich nvarchar(50)
 )
 
 create table phong
@@ -77,6 +79,20 @@ values
 ('P309','VIP',600000,N'Trống'),
 ('P310','VIP',600000,N'Trống')
 ;
+--Thêm dữ liệu vào bảng dịch vụ
+insert into dichvu (tendv, soluong, dongia)
+values
+(N'Cơm Phần', 0, 100000),
+(N'Mì Ý', 0, 80000),
+(N'Trái Cây', 0, 20000),
+(N'Snack', 0, 5000),
+(N'Rượu Vang', 0, 200000),
+(N'Sting', 0, 10000),
+(N'Mirinda', 0, 10000),
+(N'Coca Cola', 0, 10000),
+(N'Trà Ô Long', 0, 10000)
+;
 --Kiểm tra dử liệu bảng phòng
 select * from phong
+select * from dichvu
 
